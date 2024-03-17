@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"gorm.io/gorm"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -12,9 +11,8 @@ import (
 func main() {
 	loginURL := "https://account.ccnu.edu.cn/cas/login?service=http://kjyy.ccnu.edu.cn/loginall.aspx?page="
 	bookingURL := "http://example.com/book"
-	username := "2020213784"
-	password := "aixiaokeai0126."
-	gorm.a()
+	username := ""
+	password := ""
 
 	// 模拟登录
 	// 准备登录请求的数据
